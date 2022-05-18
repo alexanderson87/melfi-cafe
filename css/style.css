@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+@font-face {
+    font-family: "cafe";
+    src: url(../fonts/SultanCafe_PERSONAL_USE.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.encabezado{
+    background-image: url(../img/cafe0.avif);
+    height: 40vh;
+    background-size: contain;
+
+}
+
+
+.navBar{
+    background-color: rgba(165, 42, 42, 0.597);
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    padding: 4rem;
+    position: fixed;
+    width: 100%;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    font-family: cafe;
+    margin: 3px;
+}
+
+.bienvenida{
+    background-color: rgba(165, 42, 42, 0.419);
+}
+
+.titulo{
+    text-decoration: none;
+    font-size: 3rem;
+    text-align: center;
+    font-family: "cafe"
+    
+}
+
+.contenedor{
+    width:100% ;
+    margin-bottom: 2rem ;
+}
+
+.tipos-cafe{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: ;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+
+}
+
+.tipos{
+    width: 30rem; 
+}
+
+.tipos img{
+   width: 80%;
+}
+
+.pie-pagina{
+    background-color: rgba(184, 39, 39, 0.834);
+    padding: 2rem;
+    font-size: 3rem;
+    display: grid;
+    grid-template-areas: 
+    "alex"
+    ;
+    justify-content: end;
+}
+
+.pie-pagina p{
+    font-size: 1.3rem;
+    font-weight:bold ;
+    grid-area: alex;
+}
+
+
+
+
+    
+
+
+
+    
+
+
