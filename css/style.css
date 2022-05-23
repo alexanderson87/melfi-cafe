@@ -11,16 +11,15 @@
     box-sizing: 0;
 }
 
+
+
 .encabezado{
     background-image: url(../img/cafe0.avif);
-    height: 40vh;
-    background-size: contain;
-
 }
 
 
 .navBar{
-    background-color: rgba(165, 42, 42, 0.597);
+    background-color: rgba(211, 29, 29, 0.879);
     justify-content: space-around;
     list-style: none;
     display: flex;
@@ -50,17 +49,19 @@ nav ul li a{
 }
 
 .contenedor{
-    width:100% ;
+    width:50% ;
     margin-bottom: 2rem ;
+    justify-content: center;
 }
 
 .tipos-cafe{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: ;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 2rem;
+    gap: 2rem;
 
 }
 
@@ -72,6 +73,12 @@ nav ul li a{
    width: 80%;
 }
 
+.fotos-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3rem;
+    padding: 2rem;
+}
 .pie-pagina{
     background-color: rgba(184, 39, 39, 0.834);
     padding: 2rem;
