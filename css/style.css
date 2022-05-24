@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "cafe";
-    src: url(../fonts/SultanCafe_PERSONAL_USE.ttf);
+    src: url(../fonts/KGMidnightMemories.ttf);
 }
 
 *{
@@ -16,11 +16,15 @@
     justify-content: space-around;
     list-style: none;
     display: flex;
-    padding: 4rem;
+    padding: 8rem;
+    margin: 8rem;
     position: fixed;
     width: 100%;
+    text-align: center;
     
 }
+
+
 nav ul li a{
     text-decoration: none;
     font-size: 1.5rem;
@@ -30,7 +34,9 @@ nav ul li a{
 }
 
 .bienvenida{
-    background-color: rgba(165, 42, 42, 0.419);
+    background-color: blanchedalmond;
+    
+
 }
 
 .titulo{
