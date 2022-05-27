@@ -11,6 +11,10 @@
     box-sizing: 0;
 }
 
+.encabezado{
+    grid-area: encabezado;
+}
+
 .navBar{
     background-color: rgba(211, 29, 29, 0.879);
     justify-content: space-around;
@@ -35,6 +39,7 @@ nav ul li a{
 
 .bienvenida{
     background-color: blanchedalmond;
+    grid-area: bienvenida;
     
 
 }
@@ -70,6 +75,7 @@ nav ul li a{
 
 .tipos{
     width: 30rem; 
+    grid-area: tipos;
 }
 
 .tipos img{
@@ -170,22 +176,38 @@ nav ul li a{
     padding: 2rem;
     font-size: 3rem;
     display: grid;
-    grid-template-areas: 
-    "alex"
-    ;
+    grid-area: pie pagina;
     justify-content: end;
 }
 
 .pie-pagina p{
     font-size: 1.3rem;
     font-weight:bold ;
-    grid-area: alex;
+    grid-area: pie-pagina;
 }
 
+.encabezado{
 
+}
 
-@media (min-hight)
+/*intento de media queris*/
+.fondo{
+    display: grid;
+    grid-template-areas: 
+    "encabezado "
+    "bienvenida"
+    "tipos" ;
+}
 
+@media(min-width: 600px){
+    .fondo{
+        grid-template: 
+        "encabezado "100px
+        "bienvenida" auto
+        "tipos"100px;
+      
+    }
+}
 
 
 
